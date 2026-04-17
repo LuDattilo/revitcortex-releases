@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "downloadUrl": "https://gpapartnerssrl-my.sharepoint.com/:u:/g/personal/luigi_dattilo-co_gpapartners_com/IQAiNSnZKrrYQ4jdt8zIWAC3AX9uMYNtOcg282ig9NAr5T4?e=5rTfcV",
-  "changelog": "In-app update banner: the Settings page now shows a yellow banner with a Download button when a newer version is available. The check is a single 5s HTTP GET at Revit startup, silent on failure, never blocks the UI."
+  "changelog": "TEST BUMP — this is a temporary manifest to verify the in-app update banner. It will be reverted to 1.0.3 shortly."
 }
