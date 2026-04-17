@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
-  "downloadUrl": "https://gpapartnerssrl-my.sharepoint.com/:u:/g/personal/luigi_dattilo-co_gpapartners_com/IQB-dXLwWZFBQ5t5S_BlI334AQKrWc8Xbd1SQtolrZ9dlG8?e=uzmwEE",
-  "changelog": "Fix freeze on double-click 'Send log to support' (Outlook COM on STA thread with 10s timeout). Support reports moved from Desktop to %USERPROFILE%/.revitcortex/support-reports with auto-rotation. New settings: keep-count, Open folder, Delete all now. UI auto-translated EN/IT based on Revit language. usage-mcp.db and plugin_version now included in the diagnostic ZIP. Thread-safety fixes on router dispatcher and session ApproveAll flag."
+  "version": "1.0.3",
+  "downloadUrl": "https://gpapartnerssrl-my.sharepoint.com/:u:/g/personal/luigi_dattilo-co_gpapartners_com/IQAiNSnZKrrYQ4jdt8zIWAC3AX9uMYNtOcg282ig9NAr5T4?e=5rTfcV",
+  "changelog": "In-app update banner: the Settings page now shows a yellow banner with a Download button when a newer version is available. The check is a single 5s HTTP GET at Revit startup, silent on failure, never blocks the UI."
 }
