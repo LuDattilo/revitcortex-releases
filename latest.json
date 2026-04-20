@@ -1,5 +1,5 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "downloadUrl": "https://gpapartnerssrl-my.sharepoint.com/:u:/g/personal/luigi_dattilo-co_gpapartners_com/IQAiNSnZKrrYQ4jdt8zIWAC3AX9uMYNtOcg282ig9NAr5T4?e=5rTfcV&download=1",
-  "changelog": "v1.0.4 — Installer reliability: Claude Desktop config merge is now UTF-8 without BOM and preserves every existing MCP server (backup before write, fails safely on malformed JSON). Revit addin deploy falls back to %AppData% when ProgramData ACLs block machine-scope install. Git is auto-installed via winget (with Git-for-Windows fallback). Fixes: manage_project_parameters modify (add/remove/replace) now actually persists; ElementId equality on net48 in audit_families; RoofBase abstract-class crash on system family pass; CategoryResolver no longer silently matches partial names; better error when a built-in parameter's bindings can't be changed. Plus: typed MCP signatures on 81 tools for better LLM discovery, and CategoryResolver adoption across 13 tools so 'Foundations' / 'Structural Foundations' / 'Fondazione strutturale' all resolve correctly."
+  "changelog": "Fix clash_detection/workflow_clash_review: accept category1/category2 aliases; Fix create_view: honor levelName parameter (previously always used lowest level); Expose levelName/scale/detailLevel on ViewTools server wrapper; Tools: nullability cleanup (0 CS8xx warnings on R24/R25); Tests: remove stale TypeScript parity check"
 }
