@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "downloadUrl": "https://gpapartnerssrl-my.sharepoint.com/:u:/g/personal/luigi_dattilo-co_gpapartners_com/IQAiNSnZKrrYQ4jdt8zIWAC3AX9uMYNtOcg282ig9NAr5T4?e=5rTfcV&download=1",
-  "changelog": "Fix clash_detection/workflow_clash_review: accept category1/category2 aliases; Fix create_view: honor levelName parameter (previously always used lowest level); Expose levelName/scale/detailLevel on ViewTools server wrapper; Tools: nullability cleanup (0 CS8xx warnings on R24/R25); Tests: remove stale TypeScript parity check"
+  "changelog": "Hardening installer: wipe server folder on install + pin server publish to self-contained"
 }
