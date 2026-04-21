@@ -1,5 +1,5 @@
 {
-  "version": "1.0.6",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.6/RevitCortex-v1.0.6.zip",
-  "changelog": "Hardening installer: wipe server folder on install + pin server publish to self-contained"
+  "version": "1.0.7",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.7/RevitCortex-v1.0.7.zip",
+  "changelog": "Audit QA: structured JSON-RPC error propagation, settings merge-write, corrected test docs"
 }
