@@ -1,5 +1,5 @@
 {
-  "version": "1.0.9",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.9/RevitCortex-v1.0.9.zip",
-  "changelog": "Script governance: cartella dedicata, consent gate, TEMP/REUSABLE, cleanup automatico a chiusura Revit"
+    "version":  "1.0.10",
+    "downloadUrl":  "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.9/RevitCortex-v1.0.9.zip",
+    "changelog":  "Fix critico: Unblock-File plugin DLLs (HRESULT 0x80131515); real-time sync status banner"
 }
