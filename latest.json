@@ -1,5 +1,5 @@
 {
-    "version":  "1.0.11",
+    "version":  "1.0.12",
     "downloadUrl":  "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.9/RevitCortex-v1.0.9.zip",
-    "changelog":  "Fix installer: rileva tutte le versioni Revit installate prima di controllare il contenuto del ZIP"
+    "changelog":  "Notifica aggiornamento automatica all avvio di Revit con download e install flow completo"
 }
