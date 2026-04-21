@@ -1,5 +1,5 @@
 {
-    "version":  "1.0.10",
+    "version":  "1.0.11",
     "downloadUrl":  "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.9/RevitCortex-v1.0.9.zip",
-    "changelog":  "Fix critico: Unblock-File plugin DLLs (HRESULT 0x80131515); real-time sync status banner"
+    "changelog":  "Fix installer: rileva tutte le versioni Revit installate prima di controllare il contenuto del ZIP"
 }
