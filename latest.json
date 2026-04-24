@@ -1,5 +1,5 @@
 {
-  "version": "1.0.16",
+  "version": "1.0.17",
   "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.16/RevitCortex-v1.0.16.zip",
-  "changelog": "Directive error messages to stop Claude retry loops on send_code_to_revit and manage_project_parameters (based on aggregated field bug reports)"
+  "changelog": "Audit log schema v2: duration_ms, response_bytes, code snippet+SHA-256 hash for send_code_to_revit. Enables richer rclog diagnostics for performance bottlenecks and code-execution forensics."
 }
