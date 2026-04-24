@@ -1,5 +1,5 @@
 {
-  "version": "1.0.15",
+  "version": "1.0.16",
   "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.15/RevitCortex-v1.0.15.zip",
-  "changelog": "Add compact flag to get_element_parameters (~60% payload reduction) and audit_families (~45% reduction); extends ToolResponseShaper pattern to the two most-called read-heavy tools"
+  "changelog": "Directive error messages to stop Claude retry loops on send_code_to_revit and manage_project_parameters (based on aggregated field bug reports)"
 }
