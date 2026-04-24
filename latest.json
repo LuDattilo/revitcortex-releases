@@ -1,5 +1,5 @@
 {
-  "version": "1.0.14",
+  "version": "1.0.15",
   "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.14/RevitCortex-v1.0.14.zip",
-  "changelog": "Add compact/summaryOnly flags to token-heavy tools (get_available_family_types, list_schedulable_fields, get_room_openings); align wrapper signatures; fix room-opening counters truncated by maxElementsPerRoom"
+  "changelog": "Add compact flag to get_element_parameters (~60% payload reduction) and audit_families (~45% reduction); extends ToolResponseShaper pattern to the two most-called read-heavy tools"
 }
