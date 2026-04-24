@@ -1,5 +1,5 @@
 {
-    "version":  "1.0.13",
-    "downloadUrl":  "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.9/RevitCortex-v1.0.9.zip",
-    "changelog":  "Fix aggiornamento: Revit viene chiuso automaticamente prima che l installer sovrascriva i DLL"
+  "version": "1.0.14",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.9/RevitCortex-v1.0.9.zip",
+  "changelog": "Add compact/summaryOnly flags to token-heavy tools (get_available_family_types, list_schedulable_fields, get_room_openings); align wrapper signatures; fix room-opening counters truncated by maxElementsPerRoom"
 }
