@@ -1,5 +1,5 @@
 {
-  "version": "1.0.17",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.17/RevitCortex-v1.0.17.zip",
-  "changelog": "Audit log schema v2: duration_ms, response_bytes, code snippet+SHA-256 hash for send_code_to_revit. Enables richer rclog diagnostics for performance bottlenecks and code-execution forensics."
+  "version": "1.0.18",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.18/RevitCortex-v1.0.18.zip",
+  "changelog": "Per-call compact on 9 HIGH-payload tools (default false) with documented safety invariants: counters/IDs/item counts preserved, only per-item metadata dropped. Deploy hardening: refuses to run while Revit is open, kills orphan server processes, evicts competing user-scope installs."
 }
