@@ -1,5 +1,5 @@
 {
-  "version": "1.0.18",
+  "version": "1.0.19",
   "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.18/RevitCortex-v1.0.18.zip",
-  "changelog": "Per-call compact on 9 HIGH-payload tools (default false) with documented safety invariants: counters/IDs/item counts preserved, only per-item metadata dropped. Deploy hardening: refuses to run while Revit is open, kills orphan server processes, evicts competing user-scope installs."
+  "changelog": "Cross-app selection bridge (export + import via show_cross_model_elements). Tool-result cache with document-event invalidation. Tightened tool execution and dynamic discovery."
 }
