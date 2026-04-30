@@ -1,5 +1,5 @@
 {
-  "version": "1.0.19",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.19/RevitCortex-v1.0.19.zip",
-  "changelog": "Cross-app selection bridge (export + import via show_cross_model_elements). Tool-result cache with document-event invalidation. Tightened tool execution and dynamic discovery."
+  "version": "1.0.20",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.20/RevitCortex-v1.0.20.zip",
+  "changelog": "Aggiunta azione set_group a manage_project_parameters: cambia massivamente il 'Group Parameter Under' di parametri di progetto/condivisi user-defined senza ricrearli. Supporta parameterNames[], targetGroup (short name o ForgeTypeId), dryRun e confirmation dialog. Built-in skippati silenziosamente. Compatibile R23-R27."
 }
