@@ -1,5 +1,5 @@
 {
-  "version": "1.0.20",
+  "version": "1.0.21",
   "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.20/RevitCortex-v1.0.20.zip",
-  "changelog": "Aggiunta azione set_group a manage_project_parameters: cambia massivamente il 'Group Parameter Under' di parametri di progetto/condivisi user-defined senza ricrearli. Supporta parameterNames[], targetGroup (short name o ForgeTypeId), dryRun e confirmation dialog. Built-in skippati silenziosamente. Compatibile R23-R27."
+  "changelog": "fix(audit): bug reports now include all tool input parameters (was '(no params)' for most tools)"
 }
