@@ -1,5 +1,5 @@
 {
-  "version": "1.0.21",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.21/RevitCortex-v1.0.21.zip",
-  "changelog": "fix(audit): bug reports now include all tool input parameters (was '(no params)' for most tools)"
+  "version": "1.0.22",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.22/RevitCortex-v1.0.22.zip",
+  "changelog": "Nuovo tool read-only get_coordination_models per leggere i Coordination Model istanziati nel modello Revit. Pacchetto compilato per Revit 2023, 2024, 2025, 2026 e 2027."
 }
