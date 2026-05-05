@@ -1,5 +1,5 @@
 {
-  "version": "1.0.23",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.23/RevitCortex-v1.0.23.zip",
-  "changelog": "Coordination Models tool follow-ups: compact flag for token-optimized payload, document-scoped result cache, and per-instance reflection guard so a single malformed CM instance no longer aborts the listing."
+  "version": "1.0.24",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.24/RevitCortex-v1.0.24.zip",
+  "changelog": "Logger: ogni fallimento ora include error_message per facilitare il debug; rimosso il doppio audit-log su send_code_to_revit"
 }
