@@ -1,5 +1,5 @@
 {
-  "version": "1.0.24",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.24/RevitCortex-v1.0.24.zip",
-  "changelog": "Logger: ogni fallimento ora include error_message per facilitare il debug; rimosso il doppio audit-log su send_code_to_revit"
+  "version": "1.0.25",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.25/RevitCortex-v1.0.25.zip",
+  "changelog": "Critical bridge fix: structured CortexResult.Fail payloads now reach MCP clients (was An-error-occurred before). Sandbox: closed 3 reflection bypass holes in send_code_to_revit; allow zero-arg obj.GetType(). create_schedule: reports skipped fields with suggestions instead of dropping silently; accepts both bare strings and object specs. clash_detection: maxResults and tolerance now configurable (was silently capped at 100). bulk_modify_parameter_values dryRun: 98 percent smaller responses, element sample now opt-in via includeSample. list_family_sizes: optional real file-size measurement via includeSize=true. Docs: PBIP live-test README includes the required -Force flag."
 }
