@@ -1,5 +1,5 @@
 {
-  "version": "1.0.26",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.26/RevitCortex-v1.0.26.zip",
-  "changelog": "AI Skill router + knowledge base (ai-skills/revitcortex) integrated with deploy and installer. Skill auto-installed in ~/.claude/skills and ~/.codex/skills when the client is present."
+  "version": "1.0.27",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.27/RevitCortex-v1.0.27.zip",
+  "changelog": "Auto mode for uninterrupted bulk operations. The confirmation dialog now offers a fourth 'Auto' option that approves all destructive operations indefinitely (no 2-minute timeout like 'Yes to All'). Stop it anytime via the new 'Stop Auto' ribbon button; Auto mode resets automatically when the document is closed or switched."
 }
