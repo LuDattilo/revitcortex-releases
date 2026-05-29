@@ -1,5 +1,5 @@
 {
-  "version": "1.0.27",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.27/RevitCortex-v1.0.27.zip",
-  "changelog": "Auto mode for uninterrupted bulk operations. The confirmation dialog now offers a fourth 'Auto' option that approves all destructive operations indefinitely (no 2-minute timeout like 'Yes to All'). Stop it anytime via the new 'Stop Auto' ribbon button; Auto mode resets automatically when the document is closed or switched."
+  "version": "1.0.28",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.28/RevitCortex-v1.0.28.zip",
+  "changelog": "Major tool-completeness + hardening release. Every tool now covers the full operation set of its Revit API class: editable levels/grids/types (rename/delete), real associative arrays and beam systems, floor/region openings, curved (arc) walls and beams, compound-structure wrapping, view-template/filter purge, cross-document copy, multi-rule view filters, material asset assignment, unit-aware parameter writes (e.g. ''3000 mm''), OR/NOT/level element filters, multi-condition parameter filtering, true solid-geometry clash detection, and write tools for worksets and project info. lines_per_view_count now has a cooperative time budget to avoid timeouts on view-heavy models. New: full Command Catalog (docs/COMMANDS.md) listing all 175 commands with natural-language prompt examples."
 }
