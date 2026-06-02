@@ -1,5 +1,5 @@
 {
-  "version": "1.0.30",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.30/RevitCortex-v1.0.30.zip",
-  "changelog": "Nuovo comando Varying Rebar Set (R2025+): set_rebar_varying + get_rebar_varying_data per i set di armatura a lunghezza variabile. Performance: analyze_model_statistics piu' veloce sui modelli con molti livelli; export_to_excel molto piu' rapido sugli export grandi (auto-fit colonne ottimizzato) con avviso di troncamento. Affidabilita': purge_unused, wipe_empty_tags e bulk_modify_parameter_values ora riportano gli elementi non riusciti (failedCount/failures) invece di ignorarli in silenzio; corretto un caso in cui bulk_modify contava come 'modificati' valori non assegnabili."
+  "version": "1.0.31",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.31/RevitCortex-v1.0.31.zip",
+  "changelog": "Documentazione: la Guida Utente ora copre TUTTI i 288 comandi, raggruppati per disciplina, ognuno con un esempio di prompt in linguaggio naturale (inclusa la nuova sezione IFC, prima assente). Catalogo comandi unificato in un'unica fonte. Nessuna modifica funzionale rispetto a v1.0.30."
 }
