@@ -1,5 +1,5 @@
 {
-  "version": "1.0.31",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.31/RevitCortex-v1.0.31.zip",
-  "changelog": "Documentazione: la Guida Utente ora copre TUTTI i 288 comandi, raggruppati per disciplina, ognuno con un esempio di prompt in linguaggio naturale (inclusa la nuova sezione IFC, prima assente). Catalogo comandi unificato in un'unica fonte. Nessuna modifica funzionale rispetto a v1.0.30."
+  "version": "1.0.32",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.32/RevitCortex-v1.0.32.zip",
+  "changelog": "Fix parametri: set_element_parameters ora supporta builtInParameter Revit API, ad esempio REBAR_SYSTEM_SPACING_TOP_DIR_1 per gli interassi di AreaReinforcementType. Questo permette di usare il tool MCP nativo invece del workaround con send_code_to_revit per questi parametri."
 }
