@@ -1,5 +1,5 @@
 {
-  "version": "1.0.32",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.32/RevitCortex-v1.0.32.zip",
-  "changelog": "Fix parametri: set_element_parameters ora supporta builtInParameter Revit API, ad esempio REBAR_SYSTEM_SPACING_TOP_DIR_1 per gli interassi di AreaReinforcementType. Questo permette di usare il tool MCP nativo invece del workaround con send_code_to_revit per questi parametri."
+  "version": "1.0.33",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.33/RevitCortex-v1.0.33.zip",
+  "changelog": "Fix send_code_to_revit: il compilatore dinamico ora isola le reference framework/RevitCortex ed evita conflitti da assembly duplicate come System.Runtime.CompilerServices.Unsafe caricate da altri add-in."
 }
