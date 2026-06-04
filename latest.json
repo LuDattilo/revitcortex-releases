@@ -1,5 +1,5 @@
 {
-  "version": "1.0.33",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.33/RevitCortex-v1.0.33.zip",
-  "changelog": "Fix send_code_to_revit: il compilatore dinamico ora isola le reference framework/RevitCortex ed evita conflitti da assembly duplicate come System.Runtime.CompilerServices.Unsafe caricate da altri add-in."
+  "version": "1.0.34",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.34/RevitCortex-v1.0.34.zip",
+  "changelog": "Sicurezza: chiusi i bypass della sandbox di send_code_to_revit; auto-updater con allowlist host HTTPS + verifica SHA-256 dell'artefatto; ifc_reload_link in transazione; cad_link_cleanup chiede conferma prima di eliminare."
 }
