@@ -1,5 +1,5 @@
 {
-  "version": "1.0.34",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.34/RevitCortex-v1.0.34.zip",
-  "changelog": "Sicurezza: chiusi i bypass della sandbox di send_code_to_revit; auto-updater con allowlist host HTTPS + verifica SHA-256 dell'artefatto; ifc_reload_link in transazione; cad_link_cleanup chiede conferma prima di eliminare."
+  "version": "1.0.35",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.35/RevitCortex-v1.0.35.zip",
+  "changelog": "Closes 29 ultrareview findings open after v1.0.34: zip-slip + path-traversal hardening, RequestConfirmation gates on destructive view/sheet/element ops, schedule export header fix, correct unit conversion for area/volume params, long[] element IDs (no 64-bit truncation), thread-safe tool gating, atomic DB writes, and resilient socket handling."
 }
