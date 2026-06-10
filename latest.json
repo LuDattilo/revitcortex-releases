@@ -1,5 +1,5 @@
 {
-  "version": "1.0.37",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.37/RevitCortex-v1.0.37.zip",
-  "changelog": "Critical fix: the installer/updater corrupted claude_desktop_config.json (empty and single-element JSON arrays mangled). Adds PS regression tests."
+  "version": "1.0.38",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.38/RevitCortex-v1.0.38.zip",
+  "changelog": "Fix installer hanging on Read-Host prompts during in-app silent updates. Adds -Silent flag to install.ps1; UpdateChecker now passes -NonInteractive -Silent. Also fixes em-dash parse error in release.ps1 under PS 5.1."
 }
