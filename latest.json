@@ -1,5 +1,5 @@
 {
-  "version": "1.0.36",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.36/RevitCortex-v1.0.36.zip",
-  "changelog": "ultrareview wave 7: fixes lines_per_view_count crash (P1), 20+ wrapper alignment bugs, PathSafety rollout to 13 tools, cache serialization optimization, CSV delimiter round-trip fix"
+  "version": "1.0.37",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.37/RevitCortex-v1.0.37.zip",
+  "changelog": "Critical fix: the installer/updater corrupted claude_desktop_config.json (empty and single-element JSON arrays mangled). Adds PS regression tests."
 }
