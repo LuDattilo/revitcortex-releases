@@ -1,5 +1,5 @@
 {
-  "version": "1.0.39",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.39/RevitCortex-v1.0.39.zip",
-  "changelog": "Transaction hardening (IFailuresPreprocessor on all batch writes), steel dryRun default true (preview-first), delete_element cascade preview, get_material_quantities cap+timeout, get_available_family_types structured errors, ToolExecutionHandler race fix"
+  "version": "1.0.40",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.40/RevitCortex-v1.0.40.zip",
+  "changelog": "Fix in-app auto-update crash: the elevated installer window closed instantly instead of installing. install.ps1 is launched with -NonInteractive but step 0 waited for Revit via Read-Host (illegal in that mode); it now polls for Revit to close in silent/non-interactive mode. Updating from inside Revit works again."
 }
