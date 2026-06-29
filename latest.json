@@ -1,5 +1,5 @@
 {
-  "version": "1.0.43",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.43/RevitCortex-v1.0.43.zip",
-  "changelog": "Reliability: write-tool transactions hardened (warning suppression + commit-status checks), room elevation view creation fixed. IFC export tools reclassified as write operations (they open a transaction) so read-only mode gates them correctly."
+  "version": "1.0.45",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.45/RevitCortex-v1.0.45.zip",
+  "changelog": "create_views_from_rooms: reject unknown viewType values (validation) instead of silently creating a callout."
 }
