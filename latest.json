@@ -1,5 +1,5 @@
 {
-  "version": "1.0.40",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.40/RevitCortex-v1.0.40.zip",
-  "changelog": "Fix in-app auto-update crash: the elevated installer window closed instantly instead of installing. install.ps1 is launched with -NonInteractive but step 0 waited for Revit via Read-Host (illegal in that mode); it now polls for Revit to close in silent/non-interactive mode. Updating from inside Revit works again."
+  "version": "1.0.41",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.41/RevitCortex-v1.0.41.zip",
+  "changelog": "Tool safety hardening: all 289 tools now declare explicit ReadOnly/Destructive metadata (read-only mode is authoritative, not name-prefix based). Arbitrary C# execution (send_code_to_revit) now always requires confirmation, even in Auto mode."
 }
