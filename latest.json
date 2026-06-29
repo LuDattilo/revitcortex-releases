@@ -1,5 +1,5 @@
 {
-  "version": "1.0.42",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.42/RevitCortex-v1.0.42.zip",
-  "changelog": "In-app update fix: the 'Install now and close Revit' button now actually closes Revit (via WM_CLOSE), so the update installs automatically without having to close Revit by hand."
+  "version": "1.0.43",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.43/RevitCortex-v1.0.43.zip",
+  "changelog": "Reliability: write-tool transactions hardened (warning suppression + commit-status checks), room elevation view creation fixed. IFC export tools reclassified as write operations (they open a transaction) so read-only mode gates them correctly."
 }
