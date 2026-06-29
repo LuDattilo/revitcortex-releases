@@ -1,5 +1,5 @@
 {
-  "version": "1.0.45",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.45/RevitCortex-v1.0.45.zip",
-  "changelog": "create_views_from_rooms: reject unknown viewType values (validation) instead of silently creating a callout."
+  "version": "1.0.46",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.46/RevitCortex-v1.0.46.zip",
+  "changelog": "create_views_from_rooms: fix elevation creation so all 4 room elevations (N/S/E/W) are produced (one rotated marker per side) instead of only north."
 }
