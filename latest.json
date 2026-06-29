@@ -1,5 +1,5 @@
 {
-  "version": "1.0.41",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.41/RevitCortex-v1.0.41.zip",
-  "changelog": "Tool safety hardening: all 289 tools now declare explicit ReadOnly/Destructive metadata (read-only mode is authoritative, not name-prefix based). Arbitrary C# execution (send_code_to_revit) now always requires confirmation, even in Auto mode."
+  "version": "1.0.42",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.42/RevitCortex-v1.0.42.zip",
+  "changelog": "In-app update fix: the 'Install now and close Revit' button now actually closes Revit (via WM_CLOSE), so the update installs automatically without having to close Revit by hand."
 }
