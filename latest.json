@@ -1,5 +1,5 @@
 {
-  "version": "1.0.47",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.47/RevitCortex-v1.0.47.zip",
-  "changelog": "Reduce unnecessary send_code_to_revit use: stronger last-resort guidance in MCP tool descriptions and server instructions, a dedicated critical-confirmation dialog for custom code, and a Settings > Tools toggle to enable/disable code execution. Auto-mode window stays scoped to Revit."
+  "version": "1.0.48",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.48/RevitCortex-v1.0.48.zip",
+  "changelog": "send_code_to_revit now works on Revit 2025+: Roslyn compilation runs in an isolated AssemblyLoadContext that binds its own System.Collections.Immutable/Reflection.Metadata 8.0, fixing the 'Could not load Microsoft.CodeAnalysis 4.12.0.0' failure caused by other add-ins loading older copies into Revit's shared load context. Includes the v1.0.47 send_code de-prioritization, critical-confirmation gate, and Settings toggle."
 }
