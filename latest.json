@@ -1,5 +1,5 @@
 {
-  "version": "1.0.48",
-  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.48/RevitCortex-v1.0.48.zip",
-  "changelog": "send_code_to_revit now works on Revit 2025+: Roslyn compilation runs in an isolated AssemblyLoadContext that binds its own System.Collections.Immutable/Reflection.Metadata 8.0, fixing the 'Could not load Microsoft.CodeAnalysis 4.12.0.0' failure caused by other add-ins loading older copies into Revit's shared load context. Includes the v1.0.47 send_code de-prioritization, critical-confirmation gate, and Settings toggle."
+  "version": "1.0.49",
+  "downloadUrl": "https://github.com/LuDattilo/revitcortex-releases/releases/download/v1.0.49/RevitCortex-v1.0.49.zip",
+  "changelog": "Fix send_code_to_revit returning a top-level collection (e.g. 'return list;'), which failed with 'Object serialized to Array. JObject instance expected.' — non-object script results are now wrapped. Builds on v1.0.48's Roslyn AssemblyLoadContext isolation."
 }
